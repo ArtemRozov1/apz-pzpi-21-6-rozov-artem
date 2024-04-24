@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VehiclesTrackingSystem.props" />
+</Project>
