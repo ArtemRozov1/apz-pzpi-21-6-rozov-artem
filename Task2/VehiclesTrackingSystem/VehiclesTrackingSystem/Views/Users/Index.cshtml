@@ -1,0 +1,113 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+            .login-container h2 {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .login-container input[type="text"],
+            .login-container input[type="password"],
+            .login-container input[type="submit"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+
+            .login-container input[type="submit"] {
+                background-color: #007bff;
+                color: #fff;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .login-container input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <p style="text-align: center;">Don't have an account? <a href="/api/users/register">Register</a></p>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Получение данных из формы
+            var formData = {
+                Login: this.elements["username"].value,
+                Password: this.elements["password"].value
+            };
+
+            // Отправка запроса на сервер для проверки учетных данных
+            fetch('/api/users/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json' // Устанавливаем тип данных JSON
+                },
+                body: JSON.stringify(formData) // Преобразуем объект в JSON строку
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Вход выполнен успешно
+                        window.location.href = '/drivers/page'; // Перенаправление на другую страницу
+                    } else {
+                        // Ошибка при входе
+                        response.json().then(data => {
+                            console.log(data); // Выводим объект JSON в консоль
+                            alert('Error: ' + data.message); // Отображаем сообщение об ошибке
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error occurred, please try again later.');
+                });
+        });
+    </script>
+
+
+</body>
+</html>
+

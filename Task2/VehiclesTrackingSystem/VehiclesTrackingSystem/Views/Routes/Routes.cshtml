@@ -1,0 +1,57 @@
+﻿@model List<VehiclesTrackingSystem.Models.Route>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список маршрутов</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Список маршрутов</h1>
+
+    <table id="routesTable">
+        <thead>
+            <tr>
+                <th>RouteId</th>
+                <th>StartPoint</th>
+                <th>EndPoint</th>
+                <th>Distance</th>
+                <th>EstimatedTime</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var route in Model)
+            {
+                <tr id="@route.RouteId" ondblclick="deleteRoute(@route.RouteId)">
+                    <td>@route.RouteId</td>
+                    <td>@route.StartPoint</td>
+                    <td>@route.EndPoint</td>
+                    <td>@route.Distance</td>
+                    <td>@route.EstimatedTime</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button onclick="location.href='/Routes/AddRoute'">Добавить новый маршрут</button>
+
+    <script>
+        function deleteRoute(routeId) {
+            var confirmation = confirm("Вы уверены, что хотите удалить этот маршрут?");
+            if (confirmation) {
+                fetch('/Routes/DeleteRoute/' + routeId, {
+                    method: 'DELETE'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            document.getElementById(routeId).remove();
+                        } else {
+                            alert('Ошибка удаления маршрута.' + response.status)
+                        }
+                    })
+                    .catch(error => console.error('Ошибка:', error));
+            }
+        }
+    </script>
+</body>
+</html>

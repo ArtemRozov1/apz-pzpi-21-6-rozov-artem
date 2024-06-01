@@ -1,0 +1,79 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using VehiclesTrackingSystem.Models
+<!-- Views/Vehicles/Vehicles.cshtml -->
+@model List<Vehicle>
+
+<!-- HTML страница со списком транспортных средств -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список транспортных средств</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Список транспортных средств</h1>
+
+    <table id="vehiclesTable">
+        <thead>
+            <tr>
+                <th>VehicleId</th>
+                <th>VehicleNumber</th>
+                <th>VehicleType</th>
+                <th>Manufacturer</th>
+                <th>Model</th>
+                <th>YearOfManufacture</th>
+                <th>OwnerId</th>
+                <th>FactoryWeight</th>
+                <th>CurrentWeight</th>
+                <th>Location</th>
+                <th>TankCapacity</th>
+                <th>CurrentFuelLevel</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vehicle in Model)
+            {
+                <tr id="@vehicle.VehicleId" ondblclick="deleteVehicle(@vehicle.VehicleId)">
+                    <td>@vehicle.VehicleId</td>
+                    <td>@vehicle.VehicleNumber</td>
+                    <td>@vehicle.VehicleType</td>
+                    <td>@vehicle.Manufacturer</td>
+                    <td>@vehicle.Model</td>
+                    <td>@vehicle.YearOfManufacture</td>
+                    <td>@vehicle.OwnerId</td>
+                    <td>@vehicle.FactoryWeight</td>
+                    <td>@vehicle.CurrentWeight</td>
+                    <td>@vehicle.Location</td>
+                    <td>@vehicle.TankCapacity</td>
+                    <td>@vehicle.CurrentFuelLevel</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button onclick="location.href='/Vehicles/AddVehicle'">Добавить новое транспортное средство</button>
+
+    <script>
+        function deleteVehicle(vehicleId) {
+            var confirmation = confirm("Вы уверены, что хотите удалить это транспортное средство?");
+            if (confirmation) {
+                fetch('/Vehicles/DeleteVehicle/' + vehicleId, {
+                    method: 'DELETE'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            document.getElementById(vehicleId).remove();
+                        } else {
+                            alert('Ошибка удаления транспортного средства.' + response.status)
+                        }
+                    })
+                    .catch(error => console.error('Ошибка:', error));
+            }
+        }
+    </script>
+</body>
+</html>

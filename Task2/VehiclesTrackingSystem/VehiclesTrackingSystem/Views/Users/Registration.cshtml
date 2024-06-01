@@ -1,0 +1,117 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .register-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+            .register-container h2 {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .register-container input[type="text"],
+            .register-container input[type="password"],
+            .register-container input[type="email"],
+            .register-container input[type="submit"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+
+            .register-container input[type="submit"] {
+                background-color: #007bff;
+                color: #fff;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .register-container input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <h2>Registration</h2>
+        <form id="registrationForm">
+            <input type="text" name="login" placeholder="Login" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="text" name="userType" placeholder="User Type" required><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Получение данных из формы
+            var formData = {
+                Login: this.elements["login"].value,
+                Password: this.elements["password"].value,
+                Email: this.elements["email"].value,
+                UserType: this.elements["userType"].value
+            };
+
+            // Отправка запроса на сервер для регистрации пользователя
+            fetch('/api/users/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json' // Устанавливаем тип данных JSON
+                },
+                body: JSON.stringify(formData) // Преобразуем объект в JSON строку
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Регистрация выполнена успешно
+                        alert('Registration successful!');
+                        window.location.href = '/api/users/login'; // Перенаправление на страницу входа
+                    } else {
+                        // Ошибка при регистрации
+                        response.json().then(data => {
+                            console.log(data); // Выводим объект JSON в консоль
+                            alert('Error: ' + data); // Отображаем сообщение об ошибке
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error occurred, please try again later.');
+                });
+        });
+    </script>
+
+</body>
+</html>

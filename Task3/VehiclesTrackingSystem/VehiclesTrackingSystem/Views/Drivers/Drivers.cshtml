@@ -1,0 +1,64 @@
+﻿@using VehiclesTrackingSystem.Models
+<!-- Views/Drivers/Drivers.cshtml -->
+@model List<Driver>
+
+<!-- HTML страница со списком водителей -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список водителей</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Список водителей</h1>
+
+    <table id="driversTable">
+        <thead>
+            <tr>
+                <th>DriverId</th>
+                <th>FullName</th>
+                <th>DateOfBirth</th>
+                <th>LicenseNumber</th>
+                <th>ExpirationDate</th>
+                <th>ContactNumber</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var driver in Model)
+            {
+                <tr id="@driver.DriverId" ondblclick="deleteDriver(@driver.DriverId)">
+                    <td>@driver.DriverId</td>
+                    <td>@driver.FullName</td>
+                    <td>@driver.DateOfBirth</td>
+                    <td>@driver.LicenseNumber</td>
+                    <td>@driver.ExpirationDate</td>
+                    <td>@driver.ContactNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button onclick="location.href='/Drivers/AddDriver'">Добавить нового водителя</button>
+
+    <script>
+        function deleteDriver(driverId) {
+            var confirmation = confirm("Вы уверены, что хотите удалить этого водителя?");
+            if (confirmation) {
+                fetch('/api/DriversApi/' + driverId, {
+                    method: 'DELETE'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            document.getElementById(driverId).remove();
+                        } else {
+                            alert('Ошибка удаления водителя.' + response.status)
+                        }
+                    })
+                    .catch(error => console.error('Ошибка:', error));
+            }
+        }
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VehiclesTrackingSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VehiclesTrackingSystem.props",
+      "PackagePath": "build\\VehiclesTrackingSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VehiclesTrackingSystem.props",
+      "PackagePath": "buildMultiTargeting\\VehiclesTrackingSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VehiclesTrackingSystem.props",
+      "PackagePath": "buildTransitive\\VehiclesTrackingSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

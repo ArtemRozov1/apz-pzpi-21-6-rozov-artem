@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавить водителя</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Добавить нового водителя</h1>
+
+    <form id="addDriverForm">
+        <label for="fullName">ФИО:</label><br>
+        <input type="text" id="fullName" name="fullName"><br><br>
+
+        <label for="dateOfBirth">Дата рождения:</label><br>
+        <input type="date" id="dateOfBirth" name="dateOfBirth"><br><br>
+
+        <label for="licenseNumber">Номер водительского удостоверения:</label><br>
+        <input type="text" id="licenseNumber" name="licenseNumber"><br><br>
+
+        <label for="expirationDate">Дата окончания действия:</label><br>
+        <input type="date" id="expirationDate" name="expirationDate"><br><br>
+
+        <label for="contactNumber">Контактный номер:</label><br>
+        <input type="text" id="contactNumber" name="contactNumber"><br><br>
+
+        <input type="submit" value="Добавить">
+    </form>
+
+    <script>
+        document.getElementById('addDriverForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(this);
+            var jsonObject = {};
+
+            // Преобразование данных из FormData в объект JSON
+            formData.forEach(function (value, key) {
+                jsonObject[key] = value;
+            });
+
+            // Отправка объекта JSON на сервер
+            fetch('/api/DriversApi', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(jsonObject)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Водитель успешно добавлен.');
+                        window.location.href = '/Drivers/Page';
+                    } else {
+                        alert('Ошибка добавления водителя.' + response.status);
+                    }
+                })
+                .catch(error => console.error('Ошибка:', error));
+        });
+    </script>
+</body>
+</html>
+
+

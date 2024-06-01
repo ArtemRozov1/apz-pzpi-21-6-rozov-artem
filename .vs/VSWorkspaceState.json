@@ -3,8 +3,9 @@
     "",
     "\\Task2",
     "\\Task2\\VehiclesTrackingSystem",
-    "\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem"
+    "\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem",
+    "\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers"
   ],
-  "SelectedNode": "\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem.sln",
+  "SelectedNode": "\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\DriversController.cs",
   "PreviewInSolutionExplorer": false
 }

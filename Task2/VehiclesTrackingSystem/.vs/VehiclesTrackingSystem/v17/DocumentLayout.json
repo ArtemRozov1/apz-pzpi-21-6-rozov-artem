@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\views\\vehicles\\vehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\views\\vehicles\\vehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\views\\vehicles\\add-vehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\views\\vehicles\\add-vehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1181,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-01T09:24:05.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "add-vehicle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Vehicles\\add-vehicle.cshtml",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Views\\Vehicles\\add-vehicle.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Vehicles\\add-vehicle.cshtml",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Views\\Vehicles\\add-vehicle.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:08:13.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:05:17.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:45:13.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
