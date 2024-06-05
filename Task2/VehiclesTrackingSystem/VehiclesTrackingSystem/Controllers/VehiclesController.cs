@@ -172,6 +172,19 @@ namespace VehiclesTrackingSystem.Controllers
 
             return NoContent();
         }
+
+        // GET: Vehicles/GetVehicleById/{id}
+        [HttpGet("GetVehicleById/{id}")]
+        public async Task<IActionResult> GetVehicleById(int id)
+        {
+            var vehicle = await _context.Vehicles.FindAsync(id);
+            if (vehicle == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(vehicle);
+        }
     }
 
     public class LocationUpdate

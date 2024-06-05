@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehiclesTrackingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8bf2043838dc14203667c8b04b5094066a9fb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf02d551fd933a4fd693bfd6ac4cd1fd3201f742")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehiclesTrackingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehiclesTrackingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
