@@ -3,47 +3,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Добавить новое транспортное средство</title>
+    <title>Додати новий транспортний засіб</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Добавить новое транспортное средство</h1>
+    <h1>Додати новий транспортний засіб</h1>
 
     <form id="addVehicleForm">
-        <label for="vehicleNumber">Номер транспортного средства:</label><br>
+        <label for="vehicleNumber">Номер транспортного засобу:</label><br>
         <input type="text" id="vehicleNumber" name="VehicleNumber"><br><br>
 
-        <label for="vehicleType">Тип транспортного средства:</label><br>
+        <label for="vehicleType">Тип транспортного засобу:</label><br>
         <input type="text" id="vehicleType" name="VehicleType"><br><br>
 
-        <label for="manufacturer">Производитель:</label><br>
+        <label for="manufacturer">Марка:</label><br>
         <input type="text" id="manufacturer" name="Manufacturer"><br><br>
 
         <label for="model">Модель:</label><br>
         <input type="text" id="model" name="Model"><br><br>
 
-        <label for="yearOfManufacture">Год производства:</label><br>
+        <label for="yearOfManufacture">Рік виробництва:</label><br>
         <input type="number" id="yearOfManufacture" name="YearOfManufacture"><br><br>
 
-        <label for="ownerId">ID владельца:</label><br>
+        <label for="ownerId">ID власника (водія):</label><br>
         <input type="number" id="ownerId" name="OwnerId"><br><br>
 
-        <label for="factoryWeight">Заводской вес:</label><br>
+        <label for="factoryWeight">Заводська вага:</label><br>
         <input type="number" step="0.01" id="factoryWeight" name="FactoryWeight"><br><br>
 
-        <label for="currentWeight">Текущий вес:</label><br>
+        <label for="currentWeight">Поточна вага:</label><br>
         <input type="number" step="0.01" id="currentWeight" name="CurrentWeight"><br><br>
 
-        <label for="location">Местоположение:</label><br>
+        <label for="location">Місцезнаходження:</label><br>
         <input type="text" id="location" name="Location"><br><br>
 
-        <label for="tankCapacity">Емкость бака:</label><br>
+        <label for="tankCapacity">Ємність баку:</label><br>
         <input type="number" step="0.01" id="tankCapacity" name="TankCapacity"><br><br>
 
-        <label for="currentFuelLevel">Текущий уровень топлива:</label><br>
+        <label for="currentFuelLevel">Поточний обсяг баку:</label><br>
         <input type="number" step="0.01" id="currentFuelLevel" name="CurrentFuelLevel"><br><br>
 
-        <input type="submit" value="Добавить">
+        <input type="submit" value="Додати">
     </form>
 
     <script>
@@ -66,13 +66,13 @@
             })
                 .then(response => {
                     if (response.ok) {
-                        alert('Транспортное средство успешно добавлено.');
+                        alert('Транспортний засіб успішно додано.');
                         window.location.href = '/Vehicles/Page';
                     } else {
-                        alert('Ошибка добавления транспортного средства.' + response.status)
+                        alert('Помилка додавання нового транспортного засобу.' + response.status)
                     }
                 })
-                .catch(error => console.error('Ошибка:', error));
+                .catch(error => console.error('Помилка:', error));
         });
     </script>
 </body>

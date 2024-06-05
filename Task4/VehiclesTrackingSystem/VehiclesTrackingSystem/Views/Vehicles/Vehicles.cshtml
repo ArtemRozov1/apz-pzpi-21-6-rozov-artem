@@ -4,34 +4,39 @@
 @{
 }
 @using VehiclesTrackingSystem.Models
-<!-- Views/Vehicles/Vehicles.cshtml -->
+
 @model List<Vehicle>
 
-<!-- HTML страница со списком транспортных средств -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Список транспортных средств</title>
+    <title>Перелік транспортних засобів</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Список транспортных средств</h1>
+    <div class="navbar">
+        <a href="/Drivers/Page">Водії</a>
+        <a href="/Vehicles/Page">Автомобілі</a>
+        <a href="/Routes/Page">Шляхи</a>
+    </div>
+
+    <h1>Перелік транспортних засобів</h1>
 
     <table id="vehiclesTable">
         <thead>
             <tr>
-                <th>VehicleId</th>
-                <th>VehicleNumber</th>
-                <th>VehicleType</th>
-                <th>Manufacturer</th>
-                <th>Model</th>
-                <th>YearOfManufacture</th>
-                <th>OwnerId</th>
-                <th>FactoryWeight</th>
-                <th>CurrentWeight</th>
-                <th>Location</th>
-                <th>TankCapacity</th>
-                <th>CurrentFuelLevel</th>
+                <th>Авто id</th>
+                <th>Номер авто</th>
+                <th>Тип авто</th>
+                <th>Марка</th>
+                <th>Модель</th>
+                <th>Рік випуску авто</th>
+                <th>Номер власника</th>
+                <th>Вага з заводу</th>
+                <th>Поточна вага</th>
+                <th>Місцезнаходження</th>
+                <th>Загальний обсяг баку</th>
+                <th>Поточний обсяг баку</th>
             </tr>
         </thead>
         <tbody>
@@ -55,11 +60,11 @@
         </tbody>
     </table>
 
-    <button onclick="location.href='/Vehicles/AddVehicle'">Добавить новое транспортное средство</button>
+    <button onclick="location.href='/Vehicles/AddVehicle'">Додати новий транспортний засіб</button>
 
     <script>
         function deleteVehicle(vehicleId) {
-            var confirmation = confirm("Вы уверены, что хотите удалить это транспортное средство?");
+            var confirmation = confirm("Ви впевнені, що бажаєте видалити цей транспортний засіб?");
             if (confirmation) {
                 fetch('/Vehicles/DeleteVehicle/' + vehicleId, {
                     method: 'DELETE'
@@ -68,10 +73,10 @@
                         if (response.ok) {
                             document.getElementById(vehicleId).remove();
                         } else {
-                            alert('Ошибка удаления транспортного средства.' + response.status)
+                            alert('Помилка при видаленні транспортного засобу.' + response.status)
                         }
                     })
-                    .catch(error => console.error('Ошибка:', error));
+                    .catch(error => console.error('Помилка:', error));
             }
         }
     </script>

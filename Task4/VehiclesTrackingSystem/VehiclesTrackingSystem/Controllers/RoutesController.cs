@@ -26,6 +26,18 @@ namespace VehiclesTrackingSystem.Controllers
             return View("Routes", routes);
         }
 
+        // GET: api/Routes/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Models.Route>> GetRoute(int id)
+        {
+            var route = await _context.Routes.FindAsync(id);
+            if (route == null)
+            {
+                return NotFound();
+            }
+            return Ok(route);
+        }
+
         // GET: Routes
         [HttpGet]
         public IActionResult Index()

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\driversapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\driversapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\views\\vehicles\\vehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\views\\vehicles\\vehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\views\\routes\\routes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\views\\routes\\routes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\transportationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\transportationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|c:\\users\\lenovo\\documents\\github\\apz-pzpi-21-6-rozov-artem\\task2\\vehiclestrackingsystem\\vehiclestrackingsystem\\views\\drivers\\drivers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4B53DB9-106D-45F1-86C4-0D3C47E2A55E}|VehiclesTrackingSystem\\VehiclesTrackingSystem.csproj|solutionrelative:vehiclestrackingsystem\\views\\drivers\\drivers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,79 +63,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoutesController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\RoutesController.cs",
-              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\RoutesController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\RoutesController.cs",
-              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\RoutesController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T12:50:12.981Z",
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "VehiclesTrackingSystem\\wwwroot\\css\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-05T17:16:16.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DriversApiController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\DriversApiController.cs",
-              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\DriversApiController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\DriversApiController.cs",
-              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\DriversApiController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAkwDMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T12:39:43.255Z",
-              "EditorCaption": ""
+              "Title": "Vehicles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Views\\Vehicles\\Vehicles.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T17:15:06.829Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DriversController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\DriversController.cs",
-              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\DriversController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\DriversController.cs",
-              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\DriversController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T12:39:24.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransportationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\TransportationsController.cs",
-              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\TransportationsController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\TransportationsController.cs",
-              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\TransportationsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T07:23:26.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwHwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:34:08.087Z"
+              "Title": "Routes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Routes\\Routes.cshtml",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Views\\Routes\\Routes.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Routes\\Routes.cshtml",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Views\\Routes\\Routes.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T17:15:00.677Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VehiclesController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
-              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
-              "RelativeToolTip": "VehiclesTrackingSystem\\Controllers\\VehiclesController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAcwCwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T10:45:13.807Z",
-              "EditorCaption": ""
+              "Title": "Drivers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Drivers\\Drivers.cshtml",
+              "RelativeDocumentMoniker": "VehiclesTrackingSystem\\Views\\Drivers\\Drivers.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\apz-pzpi-21-6-rozov-artem\\Task2\\VehiclesTrackingSystem\\VehiclesTrackingSystem\\Views\\Drivers\\Drivers.cshtml",
+              "RelativeToolTip": "VehiclesTrackingSystem\\Views\\Drivers\\Drivers.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T17:07:09.573Z"
             }
           ]
         },

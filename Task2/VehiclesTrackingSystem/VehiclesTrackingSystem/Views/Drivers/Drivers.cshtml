@@ -1,26 +1,31 @@
 ﻿@using VehiclesTrackingSystem.Models
-<!-- Views/Drivers/Drivers.cshtml -->
+
 @model List<Driver>
 
-<!-- HTML страница со списком водителей -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Список водителей</title>
+    <title>Перелік водіїв</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Список водителей</h1>
+    <div class="navbar">
+        <a href="/Drivers/Page">Водії</a>
+        <a href="/Vehicles/Page">Автомобілі</a>
+        <a href="/Routes/Page">Шляхи</a>
+    </div>
+
+    <h1>Перелік водіїв</h1>
 
     <table id="driversTable">
         <thead>
             <tr>
-                <th>DriverId</th>
-                <th>FullName</th>
-                <th>DateOfBirth</th>
-                <th>LicenseNumber</th>
-                <th>ExpirationDate</th>
-                <th>ContactNumber</th>
+                <th>Номер водія</th>
+                <th>ПІБ</th>
+                <th>Дата народження</th>
+                <th>Номер водійського</th>
+                <th>Дата кінця водійського</th>
+                <th>Контактний телефон</th>
             </tr>
         </thead>
         <tbody>
@@ -38,11 +43,11 @@
         </tbody>
     </table>
 
-    <button onclick="location.href='/Drivers/AddDriver'">Добавить нового водителя</button>
+    <button onclick="location.href='/Drivers/AddDriver'">Додати нового водія</button>
 
     <script>
         function deleteDriver(driverId) {
-            var confirmation = confirm("Вы уверены, что хотите удалить этого водителя?");
+            var confirmation = confirm("Ви впевнені, що бажаєте видалити цього водія?");
             if (confirmation) {
                 fetch('/api/DriversApi/' + driverId, {
                     method: 'DELETE'
@@ -51,10 +56,10 @@
                         if (response.ok) {
                             document.getElementById(driverId).remove();
                         } else {
-                            alert('Ошибка удаления водителя.' + response.status)
+                            alert('Помилка при видалені водія.' + response.status)
                         }
                     })
-                    .catch(error => console.error('Ошибка:', error));
+                    .catch(error => console.error('Помилка:', error));
             }
         }
     </script>

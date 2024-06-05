@@ -3,26 +3,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Добавить маршрут</title>
+    <title>Додати шлях</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Добавить новый маршрут</h1>
+    <h1>Додати новий шлях</h1>
 
     <form id="addRouteForm">
-        <label for="startPoint">Начальный пункт:</label><br>
+        <label for="startPoint">Початкова точка:</label><br>
         <input type="text" id="startPoint" name="startPoint"><br><br>
 
-        <label for="endPoint">Конечный пункт:</label><br>
+        <label for="endPoint">Кінцева точка:</label><br>
         <input type="text" id="endPoint" name="endPoint"><br><br>
 
-        <label for="distance">Расстояние:</label><br>
+        <label for="distance">Відстань:</label><br>
         <input type="number" id="distance" name="distance"><br><br>
 
-        <label for="estimatedTime">Время в пути:</label><br>
+        <label for="estimatedTime">Приблизний час:</label><br>
         <input type="text" id="estimatedTime" name="estimatedTime"><br><br>
 
-        <input type="submit" value="Добавить">
+        <input type="submit" value="Додати">
     </form>
 
     <script>
@@ -33,17 +33,17 @@
 
             fetch('/Routes', {
                 method: 'POST',
-                body: formData // Отправляем данные формы напрямую как объект FormData
+                body: formData 
             })
                 .then(response => {
                     if (response.ok) {
-                        alert('Маршрут успешно добавлен.');
+                        alert('Шлях успішно додано.');
                         window.location.href = '/Routes';
                     } else {
-                        alert('Ошибка добавления маршрута.' + response.status);
+                        alert('Помилка додавання шляху.' + response.status);
                     }
                 })
-                .catch(error => console.error('Ошибка:', error));
+                .catch(error => console.error('Помилка:', error));
         });
 
     </script>

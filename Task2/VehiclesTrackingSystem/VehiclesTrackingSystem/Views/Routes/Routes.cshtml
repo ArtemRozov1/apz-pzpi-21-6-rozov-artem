@@ -3,20 +3,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Список маршрутов</title>
+    <title>Перелік шляхів</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Список маршрутов</h1>
+    <div class="navbar">
+        <a href="/Drivers/Page">Водії</a>
+        <a href="/Vehicles/Page">Автомобілі</a>
+        <a href="/Routes/Page">Шляхи</a>
+    </div>
+
+    <h1>Перелік шляхів</h1>
 
     <table id="routesTable">
         <thead>
             <tr>
-                <th>RouteId</th>
-                <th>StartPoint</th>
-                <th>EndPoint</th>
-                <th>Distance</th>
-                <th>EstimatedTime</th>
+                <th>Номер шляху</th>
+                <th>Початкова точка</th>
+                <th>Кінцева точка</th>
+                <th>Дистанція</th>
+                <th>Приблизний час поїздки</th>
             </tr>
         </thead>
         <tbody>
@@ -33,11 +39,11 @@
         </tbody>
     </table>
 
-    <button onclick="location.href='/Routes/AddRoute'">Добавить новый маршрут</button>
+    <button onclick="location.href='/Routes/AddRoute'">Додати новий маршрут</button>
 
     <script>
         function deleteRoute(routeId) {
-            var confirmation = confirm("Вы уверены, что хотите удалить этот маршрут?");
+            var confirmation = confirm("Ви впевнені, що бажаєте видалити цей шлях?");
             if (confirmation) {
                 fetch('/Routes/DeleteRoute/' + routeId, {
                     method: 'DELETE'
@@ -46,10 +52,10 @@
                         if (response.ok) {
                             document.getElementById(routeId).remove();
                         } else {
-                            alert('Ошибка удаления маршрута.' + response.status)
+                            alert('Помилка видалення шляху.' + response.status)
                         }
                     })
-                    .catch(error => console.error('Ошибка:', error));
+                    .catch(error => console.error('Помилка:', error));
             }
         }
     </script>
